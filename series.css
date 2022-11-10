@@ -1,0 +1,87 @@
+body{
+	width: 98%;
+	margin: auto;
+}
+
+header{
+	border: 3px solid black;
+	overflow: hidden;
+	background-color: rgb(122, 97, 122);
+	border-bottom: 10px solid rgb(116, 42, 15);
+}
+
+header h1{
+	color: white;
+}
+
+header ul{
+	width: 30%;
+	float: right;
+	margin-top: 2rem;
+	
+}
+
+.presh{
+	width: 40%;
+	float: left;
+	padding-left: 4rem;
+}
+
+header li{
+	margin: 15px;
+	display: inline;
+}
+
+header a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	color: orangered;
+	border: dotted;
+	transition: 500ms ease;
+}
+
+span{
+	color: rgb(233, 94, 43);
+}
+
+.welcome{
+	background-image: url('.//images/apple logo.PNG');
+	text-align: center;
+	padding-top: 2rem;
+	height: 20rem;
+	
+}
+
+.image {
+	float: left;
+	padding-left: 2.2rem;
+	/* width: %; */
+}
+
+.image2 {
+
+    float: right;
+}
+
+.pictures {
+	width: 98%;
+	text-align: center;
+	margin-top: 4rem;
+	margin-bottom: 1rem;
+}
+
+.link {
+	text-decoration: none;
+	font-size: large;
+	text-align: center;
+}
+
+.videos{
+	width: 98%;
+	height: 900px;
+	/* background-color: red; */
+}
+
